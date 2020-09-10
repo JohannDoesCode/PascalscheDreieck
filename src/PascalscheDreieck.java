@@ -17,11 +17,19 @@ public class PascalscheDreieck {
             }
             System.out.println("");
         }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("------------------------------------------------------");
+        System.out.println("Enter the maximum row number: ");
+        System.out.println("------------------------------------------------------");
+        row = scanner.nextInt();
+        new PascalscheDreieck(row+1);
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("------------------------------------------------------");
         System.out.println("Enter the maximum row number: ");
+        System.out.println("------------------------------------------------------");
         int row = scanner.nextInt();
         new PascalscheDreieck(row+1);
     }
