@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class PascalscheDreieck {
+
     public PascalscheDreieck(int row) {
         int[][] pascal = new int[row][];
         for(int i = 0; i < pascal.length ; i++){
@@ -16,7 +17,6 @@ public class PascalscheDreieck {
             }
             System.out.println("");
         }
-
     }
 
     public static void main(String[] args) {
