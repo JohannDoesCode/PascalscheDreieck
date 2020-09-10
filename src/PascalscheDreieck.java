@@ -21,8 +21,8 @@ public class PascalscheDreieck {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter teh maximum row number: ");
+        System.out.println("Enter the maximum row number: ");
         int row = scanner.nextInt();
-        new PascalscheDreieck(row);
+        new PascalscheDreieck(row+1);
     }
 }
